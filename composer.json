@@ -1,0 +1,19 @@
+{
+    "name": "fracnoisfaubert/sqlite-for-strata-mu-plugin",
+    "description": "A must use plugin that autoloads SQLITE in Strata.",
+    "type": "wordpress-muplugin",
+    "authors": [
+        {
+            "name": "Francois Faubert",
+            "email": "frank@francoisfaubert.com"
+        }
+    ],
+    "require": {
+        "wpackagist-plugin/wp-db-driver": ">=1.9.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Strata\\MuPlugin\\Sqlite\\": "src"
+        }
+    }
+}
