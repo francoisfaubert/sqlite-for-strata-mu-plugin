@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "wpackagist-plugin/wp-db-driver": ">=1.9.3"
+        "wpackagist-plugin/sqlite-integration": ">=1.8.1"
     },
     "autoload": {
         "psr-4": {
