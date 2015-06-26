@@ -1,5 +1,5 @@
 {
-    "name": "fracnoisfaubert/sqlite-for-strata-mu-plugin",
+    "name": "francoisfaubert/sqlite-for-strata-mu-plugin",
     "description": "A must use plugin that autoloads SQLITE in Strata.",
     "type": "wordpress-muplugin",
     "authors": [
