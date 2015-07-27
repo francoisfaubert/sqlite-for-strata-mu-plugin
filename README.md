@@ -1,3 +1,5 @@
+* This plugin is not ready for general use yet. *
+
 # SQlite for Strata
 
 Using the SQlite for Strata MU-Plugin, [Strata](http://strata.francoisfaubert.com/) can be ran on a local SQlite database to complete the project requirement abstraction.
@@ -10,6 +12,12 @@ This plugin will only run when `WP_ENV` is set to `development` mode. Therefore,
 
 ~~~ sh
 $ composer require francoisfaubert/sqlite-for-strata-mu-plugin --dev
+~~~
+
+If you are getting unsolved requirement errors, ensure your project's `composer.json` files knows about WPackagist. This is where Wordpress plugins are being versioned for use alongside Composer.
+
+~~~ sh
+$ composer config repositories.wpackagist composer http://wpackagist.org
 ~~~
 
 Once created and running, the SQlite database is accessible at `~/tmp/development.sqlite3` and can be edited using standard methods.
