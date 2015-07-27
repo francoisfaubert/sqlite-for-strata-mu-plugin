@@ -18,7 +18,6 @@ class PluginInitializer {
 
         // Turn this off by declaring use MySQL elsewhere
         if (!defined('USE_MYSQL')) {
-
             // Only load our configuration in dev mode.
             if (strtolower(WP_ENV) === "development") {
                 define('USE_MYSQL', false);

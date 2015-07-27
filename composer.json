@@ -8,6 +8,12 @@
             "email": "frank@francoisfaubert.com"
         }
     ],
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"http://wpackagist.org"
+        }
+    ],
     "require": {
         "wpackagist-plugin/sqlite-integration": ">=1.8.1"
     },
